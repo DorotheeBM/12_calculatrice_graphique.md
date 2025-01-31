@@ -6,7 +6,62 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
     <title>Calculatrice</title>
 </head>
-<body>
+<!--Définit l'arrière-plan de la calculatrice en gris clair-->
+<body class="bg-light">
+    <!--Crée un conteneur, définit une hauteur minimale, aligne les éléments, centre le contenu verticalement horizontalement.-->
+    <div class="container-fluid min-vh-100 d-flex align-items-center justify-content-center">
+        <!--Définit la largeur de la calculatrice en fonction de la taille de l'écran-->
+        <div class="col-12 col-sm-8 col-md-6 col-lg-4 col-xl-3">
+            <!--Ajout d'une ombre au container-->
+            <div class="card shadow">
+                
+                <!-- Corps avec les boutons gris avec padding -->
+                <div class="card-body bg-light p-3">
+                    <!--Création d'une ligne avec espacement de 2-->
+                    <div class="row g-2">
+                        <!--Création de 4 colones pour 4boutons par ligne-->
+                        <div class="col-3">
+                            <!--boutons gris de la calculatrice -->
+                            <button class="btn btn-secondary w-100 py-4 fs-4 fw-bold rounded">7</button>
+                        </div>
+                        <div class="col-3">
+                            <button class="btn btn-secondary w-100 py-4 fs-4 fw-bold rounded">8</button>
+                        </div>
+                        <div class="col-3">
+                            <button class="btn btn-secondary w-100 py-4 fs-4 fw-bold rounded">9</button>
+                        </div>
+                        <div class="col-3">
+                            <button class="btn btn-secondary w-100 py-4 fs-4 fw-bold rounded">4</button>
+                        </div>
+                        <div class="col-3">
+                            <button class="btn btn-secondary w-100 py-4 fs-4 fw-bold rounded">5</button>
+                        </div>
+                        <div class="col-3">
+                            <button class="btn btn-secondary w-100 py-4 fs-4 fw-bold rounded">6</button>
+                        </div>
+                        <div class="col-3">
+                            <button class="btn btn-secondary w-100 py-4 fs-4 fw-bold rounded">*</button>
+                        </div>
+                        <div class="col-3">
+                            <button class="btn btn-secondary w-100 py-4 fs-4 fw-bold rounded">1</button>
+                        </div>
+                        <div class="col-3">
+                            <button class="btn btn-secondary w-100 py-4 fs-4 fw-bold rounded">2</button>
+                        </div>
+                        <div class="col-3">
+                            <button class="btn btn-secondary w-100 py-4 fs-4 fw-bold rounded">3</button>
+                        </div>
+                        <div class="col-3">
+                            <button class="btn btn-secondary w-100 py-4 fs-4 fw-bold rounded">0</button>
+                        </div>
+                        <div class="col-3">
+                            <button class="btn btn-secondary w-100 py-4 fs-4 fw-bold rounded">+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
     <script defer src="script.js"></script>
 </body>
